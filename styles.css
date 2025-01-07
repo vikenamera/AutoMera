@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     background-color: #f9f9f9;
 }
@@ -25,7 +26,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 1rem; 
-    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -166,54 +166,25 @@ body {
     #about p {
         font-size: 1rem;
     }
+}
 
-    .navbar-nav {
-        flex-direction: column;
-    }
+.btn-outline-gray {
+    color: #6c757d; 
+    border-color: #6c757d; 
+    background-color: transparent; 
+    transition: all 0.3s ease; 
+    margin-top: 20%;
+    font-size: 150%;
+}
 
-    .nav-item {
-        margin-right: 0;
-        margin-bottom: 1rem;
-    }
-
-    .nav-link {
-        padding: 0.5rem;
-    }
-
-    .service-card {
-        margin-bottom: 1.5rem;
-    }
-
-    .banner-photo {
-        width: 50%;
-    }
-
-    .auto-mera-banner .banner-moto {
-        font-size: 28px;
-    }
-
-    .auto-mera-banner .banner-slogan {
-        font-size: 18px;
-    }
-
-    .footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .footer-item {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .map-container {
-        height: 300px;
-    }
+.btn-outline-gray:hover {
+    background-color: #6c757d; 
+    color: white; 
+    border-color: #6c757d; 
 }
 
 #services h2 {
-    color: rgb(231, 103, 103);
+    color: rgb(231, 103, 103); 
     font-size: 400%;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -225,7 +196,7 @@ body {
 }
 
 #contact h2 {
-    color: rgb(231, 103, 103);
+    color: rgb(231, 103, 103); 
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -265,7 +236,7 @@ body {
     border-radius: 5px;
     height: 450px;
     background: #f9f9f9;
-} 
+}
 
 .service-card h4 {
     color: rgb(231, 103, 103);
@@ -286,6 +257,33 @@ body {
     transform: scale(1.05);
 }
 
+/* Service Buttons */
+.service-card .btn-outline-gray {
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    margin-top: 10px;
+}
+
+.service-card .btn-outline-gray:hover {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}
+
+/* Mobile Adjustments for service buttons */
+@media (max-width: 768px) {
+    .service-card .btn-outline-gray {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+        padding: 0.6rem 1.2rem; /* Adjust padding for mobile */
+    }
+}
+
+/* Footer Styles */
 .footer {
     background-color: rgb(33, 37, 41); 
     color: #ffffff; 
@@ -312,6 +310,7 @@ body {
     font-size: 14px;
 }
 
+/* Banner Styles */
 .banner-container {
     width: 100%;
     overflow: hidden; 
@@ -383,6 +382,7 @@ body {
     }
 }
 
+/* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
 }
