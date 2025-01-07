@@ -189,6 +189,7 @@ body{
     margin-bottom: 1rem;
 }
 
+
 #contact {
     background-color: #f9f9f9;
     padding: 60px 0;
@@ -217,7 +218,7 @@ body{
 }
 
 #contactForm .btn {
-    background-color: #d63b3b; /* Red color from your logo */
+    background-color: #d63b3b;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -226,7 +227,7 @@ body{
 }
 
 #contactForm .btn:hover {
-    background-color: #a52a2a; /* Darker red on hover */
+    background-color: #a52a2a; Darker red on hover
 }
 
 .map-container {
@@ -235,8 +236,7 @@ body{
     border-radius: 5px;
     height: 450px;
     background: #f9f9f9;
-}
-
+} 
 
 .service-card h4 {
     color: rgb(231, 103, 103);
