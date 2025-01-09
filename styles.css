@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     background-color: #f9f9f9;
 }
@@ -37,7 +36,9 @@ section {
 
 .nav-item {
     text-align: center;
-    margin-right: 8%;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    align-items: center;
 }
 
 .nav-link {
@@ -192,7 +193,6 @@ section {
     border-color: #6c757d; 
 }
 
-/* Services Section */
 #services h2 {
     color: rgb(231, 103, 103); 
     font-size: 400%;
@@ -200,7 +200,6 @@ section {
     margin-bottom: 1rem;
 }
 
-/* Contact Section */
 #contact {
     background-color: #f9f9f9;
     padding: 60px 0;
@@ -249,49 +248,25 @@ section {
     background: #f9f9f9;
 } 
 
-/* Service Cards */
+.service-card h4 {
+    color: rgb(231, 103, 103);
+}
+
+.service-card p {
+    color: #555;
+}
+
 .service-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 1.5rem;
-    margin: 1rem 0;
-}
-
-.service-card p {
-    color: #555;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
 }
 
 .service-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.service-card .btn-outline-gray {
-    color: #6c757d; 
-    border-color: #6c757d; 
-    background-color: transparent; 
-    transition: all 0.3s ease; 
-    font-size: 1.25rem;
-    font-weight: bold;
-    padding: 0.75rem 1.5rem;
-    margin-top: 10px;
-}
-
-.service-card .btn-outline-gray:hover {
-    background-color: #6c757d;
-    color: white;
-    border-color: #6c757d;
-}
-
-/* Banner Section */
 .auto-mera-banner {
     width: 100%; 
     background-color: #2C3E50; 
@@ -329,7 +304,6 @@ section {
     }
 }
 
-/* Footer Section */
 .footer {
     background-color: rgb(33, 37, 41); 
     color: #ffffff; 
@@ -358,7 +332,6 @@ section {
     font-size: 14px;
 }
 
-/* Banner Container */
 .banner-container {
     width: 100%;
     overflow: hidden; 
@@ -368,7 +341,7 @@ section {
 
 .banner-content {
     display: flex;
-    animation: slide 60s linear infinite; 
+    animation: slide 20s linear infinite;
 }
 
 .banner-photo {
