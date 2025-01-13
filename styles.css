@@ -1,13 +1,15 @@
 body {
     background-color: #f9f9f9;
 }
+
+
 section {
     height: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+ } /*The sections take up all the screen */
 
 .navbar {
     background-color: #f8f9fa; 
@@ -200,6 +202,7 @@ section {
     margin-bottom: 1rem;
 }
 
+/* Contact Section */
 #contact {
     background-color: #f9f9f9;
     padding: 60px 0;
@@ -248,6 +251,7 @@ section {
     background: #f9f9f9;
 } 
 
+/* Service Cards */
 .service-card h4 {
     color: rgb(231, 103, 103);
 }
@@ -267,9 +271,10 @@ section {
     transform: scale(1.05);
 }
 
+/* Slogan Banner */
 .auto-mera-banner {
     width: 100%;
-    background-color: #2C3E50; /* Blue background color */
+    background-color: #2C3E50; 
     padding: 50px 0;
     text-align: center;
     color: white;
@@ -304,8 +309,9 @@ section {
     }
 }
 
+/* Footers */
 .footer {
-    background-color: rgb(33, 37, 41) !important; 
+    background-color: rgb(33, 37, 41); 
     color: #ffffff; 
     display: flex;
     flex-wrap: wrap;
@@ -313,7 +319,6 @@ section {
     align-items: center;
     padding: 20px;
 }
-
 
 .footer-item {
     text-align: center;
@@ -333,6 +338,7 @@ section {
     font-size: 14px;
 }
 
+/* Partner Banner */
 .banner-container {
     width: 100%;
     overflow: hidden; 
